@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard 2_files/all.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard 2_files/OverlayScrollbars.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard 2_files/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="./AdminLTE 3 _ Dashboard 2_files/css" rel="stylesheet">
+<link id="avast_os_ext_custom_font" href="chrome-extension://eofcbnmajmjmplflapaojjnihcjkigck/common/ui/fonts/fonts.css" rel="stylesheet" type="text/css"><style type="text/css">/* Chart.js */
+@keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}</style>
+</head>
+<body class="sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed" style="height: auto;">
+    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <!-- Brand Logo -->
+        <a href="https://adminlte.io/themes/v3/index3.html" class="brand-link justify-content-center">
+          <img src="logo2.jpg"  style="opacity: .8; justify-content:center;">
+          <span class="brand-text font-weight-light"></span>
+        </a>
+    
+        <!-- Sidebar -->
+        <div class="sidebar os-host os-theme-light os-host-overflow os-host-overflow-y os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-transition"><div class="os-resize-observer-host"><div class="os-resize-observer observed" style="left: 0px; right: auto;"></div></div><div class="os-size-auto-observer" style="height: calc(100% + 1px); float: left;"><div class="os-resize-observer observed"></div></div><div class="os-content-glue" style="margin: 0px -8px; width: 249px; height: 486px;"></div><div class="os-padding"><div class="os-viewport os-viewport-native-scrollbars-invisible" style="overflow-y: scroll;"><div class="os-content" style="padding: 0px 8px; height: 100%; width: 100%;">
+          <!-- Sidebar user panel (optional) -->
+          <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            <div class="image">
+              <img src="./AdminLTE 3 _ Dashboard 2_files/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+            </div>
+            <div class="info">
+              <a href="#" class="d-block">Anthony Akpan</a>
+            </div>
+          </div>
+    <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item has-treeview menu-open">
+            <a href="#" class="nav-link ">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Home
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Profile</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link active">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Dashboard</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Available Donations</p>
+                </a>
+              </li>
+            </ul>
+          </li>         
+            </ul>
+            </nav>
+            </div>
+            </div>
+            </div>
+            </div>
+            </aside>
+
+            <div class="content-wrapper" style="min-height: 494px;">
+                <!-- Content Header (Page header) -->
+                <div class="content-header">
+                  <div class="container-fluid">
+                    <div class="row mb-2">
+                      <div class="col-sm-6">
+                        <h1 class="m-0 text-dark">Analysis</h1>
+                      </div><!-- /.col -->
+                      <div class="col-sm-6">
+                        <ol class="breadcrumb float-sm-right">
+                          <li class="breadcrumb-item"><a href="#"></a></li>
+                          <li class="breadcrumb-item active"></li>
+                        </ol>
+                      </div><!-- /.col -->
+                    </div><!-- /.row -->
+                  </div><!-- /.container-fluid -->
+                </div>
+
+                <section class="content">
+                    <div class="container-fluid">
+                      <!-- Small boxes (Stat box) -->
+                      <div class="row">
+                        <div class="col-lg-3 col-6">
+                          <!-- small box -->
+                          <div class="small-box bg-info">
+                            <div class="inner text-body">
+                              <h3>2</h3>
+              
+                              <p>Times Donated</p>
+                            </div>
+                            <div class="icon">
+                           
+                            </div>
+                            <a href="#" class="small-box-footer">Click to Donate<i class="fas fa-arrow-circle-right"></i></a>
+                          </div>
+                        </div>
+                        <!-- ./col -->
+                        <div class="col-lg-3 col-6">
+                          <!-- small box -->
+                          <div class="small-box bg-success">
+                            <div class="inner text-body">
+                              <h3>0</h3>
+              
+                              <p> Videos Posted</p>
+                            </div>
+                            <div class="icon">
+                           
+                            </div>
+                            <a href="Youtube.com" class="small-box-footer">Click to Upload <i class="fas fa-arrow-circle-right"></i></a>
+                          </div>
+                        </div>
+                        <!-- ./col -->
+                        <div class="col-lg-3 col-6">
+                          <!-- small box -->
+                          <div class="small-box text-white bg-warning ">
+                            <div class="inner text-body">
+                              <h3>3</h3>
+              
+                              <p>Friends reffered</p>
+                            </div>
+                            <div class="icon">
+                              
+                            </div>
+                            <a href="#" class="small-box-footer text-body">Click for refferal link <i class="fas fa-arrow-circle-right"></i></a>
+                          </div>
+                        </div>
+                        <!-- ./col -->
+                        <div class="col-lg-3 col-6" style="color:black; ">
+                          <!-- small box -->
+                          <div class="small-box bg-danger" style="color:black" !important;>
+                            <div class="inner text-body">
+                              <h3>10</h3>
+              
+                              <p>Points Gained</p>
+                            </div>
+                            <div class="icon">
+                            </div>
+                            <a href="#" class="small-box-footer">Click for more info <i class="fas fa-arrow-circle-right"></i></a>
+                          </div>
+                        </div>
+                        </div>
+                        </div>
+                        </section>
+                        </div>
+
+                                        <!-- DIRECT CHAT -->
+                <div class="card direct-chat direct-chat-warning">
+                    <div class="card-header">
+                      <h3 class="card-title">Direct Chat</h3>
+  
+                      <div class="card-tools">
+                        <span data-toggle="tooltip" title="3 New Messages" class="badge badge-warning">3</span>
+                        <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-tool" data-toggle="tooltip" title="Contacts" data-widget="chat-pane-toggle">
+                          <i class="fas fa-comments"></i></button>
+                        <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                      <!-- Conversations are loaded here -->
+                      <div class="direct-chat-messages">
+                        <!-- Message. Default to the left -->
+                        <div class="direct-chat-msg">
+                          <div class="direct-chat-infos clearfix">
+                            <span class="direct-chat-name float-left">Alexander Pierce</span>
+                            <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
+                          </div>
+                          <!-- /.direct-chat-infos -->
+                          <img class="direct-chat-img" src="./AdminLTE 3 _ Dashboard 2_files/user1-128x128.jpg" alt="message user image">
+                          <!-- /.direct-chat-img -->
+                          <div class="direct-chat-text">
+                            Is this template really for free? That's unbelievable!
+                          </div>
+                          <!-- /.direct-chat-text -->
+                        </div>
+                        <!-- /.direct-chat-msg -->
+  
+                        <!-- Message to the right -->
+                        <div class="direct-chat-msg right">
+                          <div class="direct-chat-infos clearfix">
+                            <span class="direct-chat-name float-right">Sarah Bullock</span>
+                            <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                          </div>
+                          <!-- /.direct-chat-infos -->
+                          <img class="direct-chat-img" src="./AdminLTE 3 _ Dashboard 2_files/user3-128x128.jpg" alt="message user image">
+                          <!-- /.direct-chat-img -->
+                          <div class="direct-chat-text">
+                            You better believe it!
+                          </div>
+                          <!-- /.direct-chat-text -->
+                        </div>
+                        <!-- /.direct-chat-msg -->
+  
+                        <!-- Message. Default to the left -->
+                        <div class="direct-chat-msg">
+                          <div class="direct-chat-infos clearfix">
+                            <span class="direct-chat-name float-left">Alexander Pierce</span>
+                            <span class="direct-chat-timestamp float-right">23 Jan 5:37 pm</span>
+                          </div>
+                          <!-- /.direct-chat-infos -->
+                          <img class="direct-chat-img" src="./AdminLTE 3 _ Dashboard 2_files/user1-128x128.jpg" alt="message user image">
+                          <!-- /.direct-chat-img -->
+                          <div class="direct-chat-text">
+                            Working with AdminLTE on a great new app! Wanna join?
+                          </div>
+                          <!-- /.direct-chat-text -->
+                        </div>
+                        <!-- /.direct-chat-msg -->
+  
+                        <!-- Message to the right -->
+                        <div class="direct-chat-msg right">
+                          <div class="direct-chat-infos clearfix">
+                            <span class="direct-chat-name float-right">Sarah Bullock</span>
+                            <span class="direct-chat-timestamp float-left">23 Jan 6:10 pm</span>
+                          </div>
+                          <!-- /.direct-chat-infos -->
+                          <img class="direct-chat-img" src="./AdminLTE 3 _ Dashboard 2_files/user3-128x128.jpg" alt="message user image">
+                          <!-- /.direct-chat-img -->
+                          <div class="direct-chat-text">
+                            I would love to.
+                          </div>
+                          <!-- /.direct-chat-text -->
+                        </div>
+                        <!-- /.direct-chat-msg -->
+  
+                      </div>
+                      <!--/.direct-chat-messages-->
+  
+                      <!-- Contacts are loaded here -->
+                      <div class="direct-chat-contacts">
+                        <ul class="contacts-list">
+                          <li>
+                            <a href="https://adminlte.io/themes/v3/index2.html#">
+                              <img class="contacts-list-img" src="./AdminLTE 3 _ Dashboard 2_files/user1-128x128.jpg">
+  
+                              <div class="contacts-list-info">
+                                <span class="contacts-list-name">
+                                  Count Dracula
+                                  <small class="contacts-list-date float-right">2/28/2015</small>
+                                </span>
+                                <span class="contacts-list-msg">How have you been? I was...</span>
+                              </div>
+                              <!-- /.contacts-list-info -->
+                            </a>
+                          </li>
+                          <!-- End Contact Item -->
+                          <li>
+                            <a href="https://adminlte.io/themes/v3/index2.html#">
+                              <img class="contacts-list-img" src="./AdminLTE 3 _ Dashboard 2_files/user7-128x128.jpg">
+  
+                              <div class="contacts-list-info">
+                                <span class="contacts-list-name">
+                                  Sarah Doe
+                                  <small class="contacts-list-date float-right">2/23/2015</small>
+                                </span>
+                                <span class="contacts-list-msg">I will be waiting for...</span>
+                              </div>
+                              <!-- /.contacts-list-info -->
+                            </a>
+                          </li>
+                          <!-- End Contact Item -->
+                          <li>
+                            <a href="https://adminlte.io/themes/v3/index2.html#">
+                              <img class="contacts-list-img" src="./AdminLTE 3 _ Dashboard 2_files/user3-128x128.jpg">
+  
+                              <div class="contacts-list-info">
+                                <span class="contacts-list-name">
+                                  Nadia Jolie
+                                  <small class="contacts-list-date float-right">2/20/2015</small>
+                                </span>
+                                <span class="contacts-list-msg">I'll call you back at...</span>
+                              </div>
+                              <!-- /.contacts-list-info -->
+                            </a>
+                          </li>
+                          <!-- End Contact Item -->
+                          <li>
+                            <a href="https://adminlte.io/themes/v3/index2.html#">
+                              <img class="contacts-list-img" src="./AdminLTE 3 _ Dashboard 2_files/user5-128x128.jpg">
+  
+                              <div class="contacts-list-info">
+                                <span class="contacts-list-name">
+                                  Nora S. Vans
+                                  <small class="contacts-list-date float-right">2/10/2015</small>
+                                </span>
+                                <span class="contacts-list-msg">Where is your new...</span>
+                              </div>
+                              <!-- /.contacts-list-info -->
+                            </a>
+                          </li>
+                          <!-- End Contact Item -->
+                          <li>
+                            <a href="https://adminlte.io/themes/v3/index2.html#">
+                              <img class="contacts-list-img" src="./AdminLTE 3 _ Dashboard 2_files/user6-128x128.jpg">
+  
+                              <div class="contacts-list-info">
+                                <span class="contacts-list-name">
+                                  John K.
+                                  <small class="contacts-list-date float-right">1/27/2015</small>
+                                </span>
+                                <span class="contacts-list-msg">Can I take a look at...</span>
+                              </div>
+                              <!-- /.contacts-list-info -->
+                            </a>
+                          </li>
+                          <!-- End Contact Item -->
+                          <li>
+                            <a href="https://adminlte.io/themes/v3/index2.html#">
+                              <img class="contacts-list-img" src="./AdminLTE 3 _ Dashboard 2_files/user8-128x128.jpg">
+  
+                              <div class="contacts-list-info">
+                                <span class="contacts-list-name">
+                                  Kenneth M.
+                                  <small class="contacts-list-date float-right">1/4/2015</small>
+                                </span>
+                                <span class="contacts-list-msg">Never mind I found...</span>
+                              </div>
+                              <!-- /.contacts-list-info -->
+                            </a>
+                          </li>
+                          <!-- End Contact Item -->
+                        </ul>
+                        <!-- /.contacts-list -->
+                      </div>
+                      <!-- /.direct-chat-pane -->
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                      <form action="https://adminlte.io/themes/v3/index2.html#" method="post">
+                        <div class="input-group">
+                          <input type="text" name="message" placeholder="Type Message ..." class="form-control">
+                          <span class="input-group-append">
+                            <button type="button" class="btn btn-warning">Send</button>
+                          </span>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- /.card-footer-->
+                  </div>
+                  <!--/.direct-chat -->
+                </div>
+                <!-- /.col -->
+
+                <div class="row">
+
+                  
+                <div class="col-md-6">
+                    <!-- USERS LIST -->
+                    <div class="card">
+                      <div class="card-header">
+                        <h3 class="card-title">Latest Members</h3>
+    
+                        <div class="card-tools">
+                          <span class="badge badge-danger">8 New Members</span>
+                          <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
+                          </button>
+                          <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
+                          </button>
+                        </div>
+                      </div>
+                      <!-- /.card-header -->
+                      <div class="card-body p-0">
+                        <ul class="users-list clearfix">
+                          <li>
+                            <img src="./AdminLTE 3 _ Dashboard 2_files/user1-128x128.jpg" alt="User Image">
+                            <a class="users-list-name" href="https://adminlte.io/themes/v3/index2.html#">Alexander Pierce</a>
+                            <span class="users-list-date">Today</span>
+                          </li>
+                          <li>
+                            <img src="./AdminLTE 3 _ Dashboard 2_files/user8-128x128.jpg" alt="User Image">
+                            <a class="users-list-name" href="https://adminlte.io/themes/v3/index2.html#">Norman</a>
+                            <span class="users-list-date">Yesterday</span>
+                          </li>
+                          <li>
+                            <img src="./AdminLTE 3 _ Dashboard 2_files/user7-128x128.jpg" alt="User Image">
+                            <a class="users-list-name" href="https://adminlte.io/themes/v3/index2.html#">Jane</a>
+                            <span class="users-list-date">12 Jan</span>
+                          </li>
+                          <li>
+                            <img src="./AdminLTE 3 _ Dashboard 2_files/user6-128x128.jpg" alt="User Image">
+                            <a class="users-list-name" href="https://adminlte.io/themes/v3/index2.html#">John</a>
+                            <span class="users-list-date">12 Jan</span>
+                          </li>
+                          <li>
+                            <img src="./AdminLTE 3 _ Dashboard 2_files/user2-160x160.jpg" alt="User Image">
+                            <a class="users-list-name" href="https://adminlte.io/themes/v3/index2.html#">Alexander</a>
+                            <span class="users-list-date">13 Jan</span>
+                          </li>
+                          <li>
+                            <img src="./AdminLTE 3 _ Dashboard 2_files/user5-128x128.jpg" alt="User Image">
+                            <a class="users-list-name" href="https://adminlte.io/themes/v3/index2.html#">Sarah</a>
+                            <span class="users-list-date">14 Jan</span>
+                          </li>
+                          <li>
+                            <img src="./AdminLTE 3 _ Dashboard 2_files/user4-128x128.jpg" alt="User Image">
+                            <a class="users-list-name" href="https://adminlte.io/themes/v3/index2.html#">Nora</a>
+                            <span class="users-list-date">15 Jan</span>
+                          </li>
+                          <li>
+                            <img src="./AdminLTE 3 _ Dashboard 2_files/user3-128x128.jpg" alt="User Image">
+                            <a class="users-list-name" href="https://adminlte.io/themes/v3/index2.html#">Nadia</a>
+                            <span class="users-list-date">15 Jan</span>
+                          </li>
+                        </ul>
+                        <!-- /.users-list -->
+                      </div>
+                      <!-- /.card-body -->
+                      <div class="card-footer text-center">
+                        <a href="javascript::">View All Users</a>
+                      </div>
+                      <!-- /.card-footer -->
+                    </div>
+                    <!--/.card -->
+                  </div>
+                  <!-- /.col -->
+                </div>
+                <!-- /.row -->
+
+                <div class="col-md-4">
+                    <!-- Info Boxes Style 2 -->
+                    <div class="card">
+                        <div class="card-header">
+                          <h3 class="card-title">Browser Usage</h3>
+          
+                          <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
+                            </button>
+                            <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i>
+                            </button>
+                          </div>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-md-8">
+                              <div class="chart-responsive"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+                                <canvas id="pieChart" height="99" width="199" class="chartjs-render-monitor" style="display: block; width: 199px; height: 99px;"></canvas>
+                              </div>
+                              <!-- ./chart-responsive -->
+                            </div>
+                            <!-- /.col -->
+                            <div class="col-md-4">
+                              <ul class="chart-legend clearfix">
+                                <li><i class="far fa-circle text-danger"></i> Chrome</li>
+                                <li><i class="far fa-circle text-success"></i> IE</li>
+                                <li><i class="far fa-circle text-warning"></i> FireFox</li>
+                                <li><i class="far fa-circle text-info"></i> Safari</li>
+                                <li><i class="far fa-circle text-primary"></i> Opera</li>
+                                <li><i class="far fa-circle text-secondary"></i> Navigator</li>
+                              </ul>
+                            </div>
+                            <!-- /.col -->
+                          </div>
+                          <!-- /.row -->
+                        </div>
+                        <!-- /.card-body -->
+                        <div class="card-footer bg-white p-0">
+                          <ul class="nav nav-pills flex-column">
+                            <li class="nav-item">
+                              <a href="https://adminlte.io/themes/v3/index2.html#" class="nav-link">
+                                United States of America
+                                <span class="float-right text-danger">
+                                  <i class="fas fa-arrow-down text-sm"></i>
+                                  12%</span>
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="https://adminlte.io/themes/v3/index2.html#" class="nav-link">
+                                India
+                                <span class="float-right text-success">
+                                  <i class="fas fa-arrow-up text-sm"></i> 4%
+                                </span>
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="https://adminlte.io/themes/v3/index2.html#" class="nav-link">
+                                China
+                                <span class="float-right text-warning">
+                                  <i class="fas fa-arrow-left text-sm"></i> 0%
+                                </span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <!-- /.footer -->
+
+                        <div class="card">
+                            <div class="card-header">
+                              <h3 class="card-title">Recently Added Products</h3>
+              
+                              <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                  <i class="fas fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                  <i class="fas fa-times"></i>
+                                </button>
+                              </div>
+                            </div>
+                            <!-- /.card-header -->
+                            <div class="card-body p-0">
+                              <ul class="products-list product-list-in-card pl-2 pr-2">
+                                <li class="item">
+                                  <div class="product-img">
+                                    <img src="./AdminLTE 3 _ Dashboard 2_files/default-150x150.png" alt="Product Image" class="img-size-50">
+                                  </div>
+                                  <div class="product-info">
+                                    <a href="javascript:void(0)" class="product-title">Samsung TV
+                                      <span class="badge badge-warning float-right">$1800</span></a>
+                                    <span class="product-description">
+                                      Samsung 32" 1080p 60Hz LED Smart HDTV.
+                                    </span>
+                                  </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                  <div class="product-img">
+                                    <img src="./AdminLTE 3 _ Dashboard 2_files/default-150x150.png" alt="Product Image" class="img-size-50">
+                                  </div>
+                                  <div class="product-info">
+                                    <a href="javascript:void(0)" class="product-title">Bicycle
+                                      <span class="badge badge-info float-right">$700</span></a>
+                                    <span class="product-description">
+                                      26" Mongoose Dolomite Men's 7-speed, Navy Blue.
+                                    </span>
+                                  </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                  <div class="product-img">
+                                    <img src="./AdminLTE 3 _ Dashboard 2_files/default-150x150.png" alt="Product Image" class="img-size-50">
+                                  </div>
+                                  <div class="product-info">
+                                    <a href="javascript:void(0)" class="product-title">
+                                      Xbox One <span class="badge badge-danger float-right">
+                                      $350
+                                    </span>
+                                    </a>
+                                    <span class="product-description">
+                                      Xbox One Console Bundle with Halo Master Chief Collection.
+                                    </span>
+                                  </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                  <div class="product-img">
+                                    <img src="./AdminLTE 3 _ Dashboard 2_files/default-150x150.png" alt="Product Image" class="img-size-50">
+                                  </div>
+                                  <div class="product-info">
+                                    <a href="javascript:void(0)" class="product-title">PlayStation 4
+                                      <span class="badge badge-success float-right">$399</span></a>
+                                    <span class="product-description">
+                                      PlayStation 4 500GB Console (PS4)
+                                    </span>
+                                  </div>
+                                </li>
+                                <!-- /.item -->
+                              </ul>
+                            </div>
+                            <!-- /.card-body -->
+                            <div class="card-footer text-center">
+                              <a href="javascript:void(0)" class="uppercase">View All Products</a>
+                            </div>
+                            <!-- /.card-footer -->
+                          </div>
+
+                          </div>
+                          
+                      </div>
+                      
+
+
+                    
+                       
+            
+              </div>
+  
+</body>
+</html>
